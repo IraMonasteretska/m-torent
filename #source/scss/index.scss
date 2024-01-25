@@ -1,0 +1,473 @@
+.mainslider {
+    position: relative;
+
+    .slidewrapper {
+        height: calC(100vh - 112px);
+        position: relative;
+
+        &>img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 50% 50%;
+        }
+    }
+
+    .msl {
+        .swiper-pagination {
+            .swiper-pagination-bullet {
+                height: 2px;
+                width: 36px;
+                border-radius: 6px;
+                background: #fff;
+                opacity: 1;
+                margin: 0 8px;
+                transition: 0.3s;
+            }
+
+            .swiper-pagination-bullet.swiper-pagination-bullet-active {
+                background: #3B6018;
+                width: 72px;
+            }
+        }
+    }
+
+    .mainslider__descr {
+        position: absolute;
+        z-index: 2;
+        left: 0;
+        width: 100%;
+        bottom: 148px;
+
+        h1 {
+            color: #fff;
+            font-size: 52px;
+            font-weight: 600;
+            line-height: 140%;
+            margin-bottom: 80px;
+        }
+
+        a {
+            @include btnarr;
+        }
+    }
+
+}
+
+.aboutsect {
+    padding: 119px 0 20px;
+}
+
+.wrapdescrimg {
+    position: relative;
+
+    img {
+        width: 100%;
+        vertical-align: top;
+        padding-top: 10px;
+    }
+
+    .descrimg {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 196px;
+        padding: 22px 26px;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.60) 2.85%, rgba(0, 0, 0, 0.55) 47.12%, rgba(0, 0, 0, 0.00) 112.15%);
+
+        p {
+            margin: 0;
+            color: #EFEFEF;
+            font-size: 16px;
+            line-height: 140%;
+            padding-left: 12px;
+            position: relative;
+
+            &::after {
+                content: '';
+                display: inline-block;
+                width: 1px;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                background: #fff;
+            }
+        }
+    }
+}
+
+.aboutsect__description {
+    h3 {
+        margin-bottom: 20px;
+    }
+
+    p {
+        color: #2D2D2D;
+        margin-bottom: 10px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.abbenefits {
+    margin-top: 80px;
+    text-align: center;
+
+    img {
+        max-width: 100%;
+        height: 121px;
+        box-shadow: 2px 2px 4px 0px rgba(129, 129, 129, 0.25);
+        border-radius: 50%;
+        backdrop-filter: blur(2px);
+        margin-bottom: 24px;
+    }
+
+    p {
+        margin: 0;
+        padding: 10px;
+        color: #000;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 140%;
+    }
+}
+
+.ouroffers {
+    padding: 100px 0 120px;
+
+    h3 {
+        margin-bottom: 50px;
+    }
+}
+
+.ouroffers__box {
+    height: 440px;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+
+    &>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 50%;
+        transition: 0.5s;
+        transform: scale(1.05);
+    }
+
+    .ouroffers__boxdescr {
+        padding: 12px 24px;
+        min-height: 196px;
+        background: rgba(0, 0, 0, 0.50);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+
+        p {
+            color: #fff;
+            line-height: 140%;
+            margin-bottom: 12px;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .title {
+            margin-bottom: 8px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+
+    }
+
+    .ouroffers__box-arr {
+        vertical-align: top;
+    }
+
+    &:hover {
+        &>img {
+            transform: scale(1.01);
+        }
+    }
+}
+
+.col-xl-8 {
+    .ouroffers__box .ouroffers__boxdescr {
+        min-height: 174px;
+    }
+}
+
+.consultation {
+    padding: 100px 0;
+    position: relative;
+
+    &>img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+
+    .consultation-wrapper {
+        margin: 0 auto;
+        max-width: 1034px;
+        padding: 50px 60px;
+        background: rgba(255, 255, 255, 0.80);
+        position: relative;
+        z-index: 2;
+        text-align: center;
+
+        p {
+            color: #000;
+            font-size: 24px;
+            line-height: 140%;
+            margin-bottom: 34px;
+        }
+
+        .title {
+            font-size: 48px;
+            font-weight: 600;
+        }
+
+        a {
+            display: inline-flex;
+            align-items: center;
+            min-height: 58px;
+            border-radius: 30px;
+            border: 1px solid #3B6018;
+            padding: 5px 20px;
+            color: #3B6018;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 140%;
+            text-decoration: none;
+            transition: 0.3s;
+
+            img {
+                margin-left: 10px;
+            }
+
+            &:hover {
+                background: #fff;
+                color: #28440E;
+                border: 1px solid #28440E;
+                box-shadow: 0 6px 10px rgba(40, 68, 14, 0.5);
+            }
+        }
+    }
+}
+
+
+
+
+@media(max-width:1599.8px) {
+    .mainslider .slidewrapper {
+        height: calc(100vh - 90px);
+        position: relative;
+    }
+
+    .mainslider .mainslider__descr {
+        bottom: 100px;
+
+        h1 {
+            margin-bottom: 40px;
+            font-size: 48px;
+        }
+    }
+
+    .aboutsect {
+        padding: 100px 0 20px;
+    }
+
+    .abbenefits img {
+        margin-bottom: 10px;
+    }
+
+    .ouroffers h3 {
+        margin-bottom: 40px;
+    }
+
+    .ouroffers {
+        padding: 100px 0 80px;
+    }
+
+    .consultation .consultation-wrapper .title {
+        font-size: 42px;
+    }
+
+    .consultation .consultation-wrapper p {
+        margin-bottom: 26px;
+    }
+
+    .consultation .consultation-wrapper p {
+        font-size: 21px;
+    }
+
+}
+
+@media(max-width:1399.8px) {
+    .mainslider .mainslider__descr a span {
+        font-size: 21px;
+    }
+
+    .mainslider .mainslider__descr h1 {
+        font-size: 42px;
+    }
+
+    .aboutsect {
+        padding: 80px 0 20px;
+    }
+
+    .wrapdescrimg .descrimg {
+        padding: 15px;
+    }
+
+    .abbenefits img {
+        height: 90px;
+    }
+
+    .abbenefits {
+        margin-top: 60px;
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .ouroffers {
+        padding: 80px 0 60px;
+    }
+
+    .ouroffers__box {
+        height: 340px;
+    }
+
+    .ouroffers__box .ouroffers__boxdescr .title {
+        font-size: 21px;
+    }
+
+    .ouroffers__box .ouroffers__boxdescr p {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .ouroffers__box .ouroffers__box-arr {
+        width: 40px;
+    }
+
+    .ouroffers__box .ouroffers__boxdescr {
+        min-height: 190px;
+    }
+
+    .col-xl-8 .ouroffers__box .ouroffers__boxdescr {
+        min-height: 155px;
+    }
+
+    .consultation .consultation-wrapper .title {
+        font-size: 36px;
+    }
+
+    .consultation .consultation-wrapper .title {
+        margin-bottom: 20px;
+    }
+
+    .consultation .consultation-wrapper p {
+        font-size: 18px;
+    }
+
+    .consultation .consultation-wrapper a {
+        font-size: 21px;
+    }
+
+    .consultation {
+        padding: 70px 0;
+    }
+
+
+
+
+
+
+
+}
+
+@media(max-width:1199.8px) {
+    .abbenefits p {
+        font-weight: 500;
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .ouroffers__box .ouroffers__boxdescr {
+        padding: 10px;
+    }
+
+    .ouroffers__box {
+        height: 300px;
+    }
+
+    .aboutsect__description h3 {
+        margin-bottom: 10px;
+    }
+
+    .ouroffers h3 {
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+@media(max-width:991.8px) {
+    .wrapdescrimg img {
+        padding-top: 0;
+    }
+
+    .aboutsect__description {
+        margin-top: 20px;
+    }
+
+    .abbenefits {
+        p {
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+
+    .abbenefit {
+        margin-bottom: 20px;
+    }
+
+    .ouroffers {
+        padding: 60px 0;
+    }
+
+    .consultation .consultation-wrapper .title {
+        font-size: 28px;
+    }
+
+
+
+}
