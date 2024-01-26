@@ -112,3 +112,24 @@ h3 {
         font-size: 36px;
     }
 }
+
+@media(max-width:767.8px) {
+    h3 {
+        font-size: 32px;
+    }
+}
+
+@media(max-width:575.8px) {
+
+    main {
+        padding-top: 64px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+  
+    
+
+}
