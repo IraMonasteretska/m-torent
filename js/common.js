@@ -120,6 +120,18 @@ $(document).ready(function () {
     $('.suggestions-slwrap').css('padding-left', paddingContainer);
   });
 
+  // language
+$('.activelang').click(function(){
+  $('.langbox__dropdown').toggle();
+});
+$(document).click(function (event) {
+  let $target = $(event.target);
+  if (!$target.closest('.activelang').length && !$target.closest('.langbox__dropdown').length) {
+    $('.langbox__dropdown').hide();
+  }
+});
+
+
 
 
 

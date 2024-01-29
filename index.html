@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M-Торент</title>
+    <link rel="icon" type="image/x-icon" href="favico.png">
     <link rel="stylesheet" href="css/lib/bootstrap-grid.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
@@ -13,48 +14,64 @@
 <body>
     <header class="header">
         <div class="container">
-                <div class="header-wrapper">
-                    <div class="header__logo">
-                        <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
-                    </div>
-                    <nav class="header__nav">
-                        <ul>
-                            <li><a href="#">Головна</a></li>
-                            <li class="submenu">
-                                <a href="#">Каталог</a>
-                                <ul class="sublist">
-                                    <li>
-                                        <a href="#">
-                                            Експорт зерна
-                                            <img src="img/wheatgrass.svg" alt="img">
-                                        </a>
-                                    </li>
-                                    <li><a href="#">Щебінь</a></li>
-                                    <li><a href="#">Відсів</a></li>
-                                    <li><a href="#">Пісок</a></li>
-                                    <li><a href="#">Цемент</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Контакти</a></li>
-                        </ul>
-                    </nav>
-                    <div class="header__infosect">
-                        <a class="headertel" href="tel:0997770735">(099) 777 07 35</a>
-                        <p>м. Івано-Франківськ, вул. Кропивницького, 1в</p>
-                        <div class="langbox">
+            <div class="header-wrapper">
+                <div class="header__logo">
+                    <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+                </div>
+                <nav class="header__nav">
+                    <ul>
+                        <li><a href="#">Головна</a></li>
+                        <li class="submenu">
+                            <a href="#">Каталог</a>
+                            <ul class="sublist">
+                                <li>
+                                    <a href="#">
+                                        Експорт зерна
+                                        <img src="img/wheatgrass.svg" alt="img">
+                                    </a>
+                                </li>
+                                <li><a href="#">Щебінь</a></li>
+                                <li><a href="#">Відсів</a></li>
+                                <li><a href="#">Пісок</a></li>
+                                <li><a href="#">Цемент</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Контакти</a></li>
+                    </ul>
+                </nav>
+                <div class="header__infosect">
+                    <a class="headertel" href="tel:0997770735">(099) 777 07 35</a>
+                    <p>м. Івано-Франківськ, вул. Кропивницького, 1в</p>
+                    <div class="langbox">
+                        <div class="activelang">
                             <div class="langbox__img">
                                 <img src="img/ua.png" alt="UA">
                             </div>
-                            <a href="#" class="langbox_lang">
+                            <span class="langbox_lang">
                                 UA
-                            </a>
+                            </span>
+                        </div>
+                        <div class="langbox__dropdown">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <div class="langbox__img">
+                                            <img src="img/en.png" alt="EN">
+                                        </div>
+                                        <span class="langbox_lang">
+                                            EN
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-
-                    <button class="closemenu">
-                        <img src="img/close.svg" alt="close">
-                    </button>
                 </div>
+
+                <button class="closemenu">
+                    <img src="img/close.svg" alt="close">
+                </button>
+            </div>
             <div class="moblogo">
                 <a href="#">
                     <img src="img/logo.svg" alt="logo">
@@ -321,7 +338,7 @@
         </div>
     </footer>
 
-    
+
 
 
     <script src="js/jquery.js"></script>

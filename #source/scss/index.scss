@@ -610,6 +610,32 @@
         padding: 5px 15px;
     }
 
+
+
+
+    .mainslider {
+        .swiper-slide {
+            &:nth-child(1) {
+                .slidewrapper>img {
+                    object-position: 31% 50%;
+                }
+            }
+
+            &:nth-child(2) {
+                .slidewrapper>img {
+                    object-position: 60% 50%;
+                }
+            }
+
+            &:nth-child(3) {
+                .slidewrapper>img {
+                    object-position: 100% 50%;
+                }
+            }
+        }
+    } 
+
+
 }
 
 @media(max-width:360.8px) {
