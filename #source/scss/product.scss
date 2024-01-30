@@ -28,7 +28,8 @@
             margin-bottom: 32px;
         }
 
-        h2, h3 {
+        h2,
+        h3 {
             margin-bottom: 32px;
             color: #000;
             font-size: 36px;
@@ -314,7 +315,8 @@
         margin-bottom: 30px;
     }
 
-    .productsection .descrwrap h2, .productsection .descrwrap h3 {
+    .productsection .descrwrap h2,
+    .productsection .descrwrap h3 {
         font-size: 28px;
     }
 
@@ -390,7 +392,8 @@
         margin-bottom: 20px;
     }
 
-    .productsection .descrwrap h2, .productsection .descrwrap h3 {
+    .productsection .descrwrap h2,
+    .productsection .descrwrap h3 {
         margin-bottom: 20px;
     }
 
@@ -437,18 +440,18 @@
             margin-bottom: 16px;
         }
 
-         .faqsect .faqrow .faqrow_title {
+        .faqsect .faqrow .faqrow_title {
             padding: 8px 70px 8px 19px;
             position: relative;
-            
+
             p {
                 font-size: 18px;
             }
-         }
+        }
 
-          .faqsect .faqrow .faqrow_descr {
+        .faqsect .faqrow .faqrow_descr {
             padding-right: 19px;
-         }
+        }
     }
 
     .suggestions {
@@ -474,7 +477,8 @@
         height: 42px;
     }
 
-    .productsection .descrwrap, .subdescrwrap {
+    .productsection .descrwrap,
+    .subdescrwrap {
         margin-bottom: 30px;
     }
 
@@ -482,9 +486,10 @@
         margin-bottom: 50px;
     }
 
-    .productsection .descrwrap h2, .productsection .descrwrap h3 {
+    .productsection .descrwrap h2,
+    .productsection .descrwrap h3 {
         font-size: 21px;
-    } 
+    }
 
     .productsection .descrwrap h4 {
         font-size: 19px;
@@ -503,6 +508,11 @@
         padding-left: 25px;
     }
 
+    .faq .faqsect .faqrow .faqrow_title {
+        min-height: 60px;
+        align-items: center;
+        display: flex;
+    }
 }
 
 @media(max-width:360.8px) {
