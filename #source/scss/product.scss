@@ -514,7 +514,17 @@
         display: flex;
     }
 
-   
+    .suggestions .ouroffers__box .ouroffers__boxdescr {
+        height: 215px;
+    }
+
+    .suggestions .ouroffers__box .ouroffers__boxdescr p {
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
 }
 
 @media(max-width:360.8px) {
