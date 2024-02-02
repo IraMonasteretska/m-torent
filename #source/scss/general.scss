@@ -69,19 +69,15 @@ h6 {
     }
 
     &:hover {
-        border-color: #A0E832;
+        border: 1px solid #4A4A4A;
+        background: #4A4A4A;
+        color: #FFF;
 
         span {
             color: #A0E832;
         }
     }
 
-    &:focus {
-        border-color: #28440E;
-        span {
-            color: #28440E;
-        }
-    }
 }
 
 h3 {

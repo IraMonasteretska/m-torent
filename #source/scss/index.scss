@@ -263,17 +263,16 @@
             }
 
             &:hover {
-                background: #fff;
-                color: #28440E;
-                border: 1px solid #28440E;
-                box-shadow: 0 6px 10px rgba(40, 68, 14, 0.5);
+                border: 1px solid #4A4A4A;
+                background: #4A4A4A;
+                color: #FFF;
             }
         }
     }
 }
 
 .mainslider .slidewrapper {
-   min-height: 560px;
+    min-height: 560px;
 }
 
 
@@ -470,7 +469,7 @@
         font-size: 28px;
     }
 
-    
+
 
 
 }
@@ -488,7 +487,7 @@
         span {
             font-size: 18px;
         }
-    } 
+    }
 
     .aboutsect {
         padding: 60px 0 20px;
@@ -559,15 +558,15 @@
         padding: 22px 26px;
     }
 
-    .abbenefits  {
+    .abbenefits {
         margin-top: 24px;
-        
+
         .abbenefit {
             display: flex;
             align-items: center;
             flex-wrap: wrap;
             margin-bottom: 24px;
-    
+
             img {
                 width: 100%;
                 max-width: 74px;
@@ -575,7 +574,7 @@
                 margin: 0;
                 height: 74px;
             }
-    
+
             p {
                 width: 100%;
                 max-width: calc(100% - 74px);
@@ -636,7 +635,7 @@
                 }
             }
         }
-    } 
+    }
 
     .abbenefits {
         margin-top: 48px;
